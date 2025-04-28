@@ -1,0 +1,3 @@
+num_traj = 5
+desired_jumps = 7
+window = 5
