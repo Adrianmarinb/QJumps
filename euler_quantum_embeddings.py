@@ -20,6 +20,7 @@ Outputs:
 # ---------------------------------------------------------------------------
 # Read Config Parameters
 # ---------------------------------------------------------------------------
+
 def read_config(path="config.txt"):
 	params = {}
 	with open(path, 'r') as f:
@@ -32,6 +33,7 @@ def read_config(path="config.txt"):
 # ---------------------------------------------------------------------------
 # Prepare Hamiltonian (H), Possible Jumps and Rates
 # ---------------------------------------------------------------------------
+
 def prepare_quantum_operators(adj_matrix):
     """
     From adjacency matrix (adj), produce:
@@ -59,6 +61,7 @@ def prepare_quantum_operators(adj_matrix):
 # ---------------------------------------------------------------------------
 # Euler-Trotter Quantum Jump Walks
 # ---------------------------------------------------------------------------
+
 def quantum_trajectories_euler(
         H, collapse_indices, rates,
         num_nodes, gamma,
