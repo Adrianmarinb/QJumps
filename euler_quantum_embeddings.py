@@ -145,10 +145,11 @@ if __name__ == '__main__':
     # Read configuration parameters
     # num_traj: number of trajectories to simulate for each start node
     # jumps_per_traj: number of jumps per trajectory
+    # window: window size for Word2Vec
 
     num_traj, jumps_per_traj, window = read_config()
 
-    # Loop over desired alpha values
+    # Loop over desired gamma values
     for gamma in range(3, 10):
 
         # Gamma will be the number of times the coherent step is repeated

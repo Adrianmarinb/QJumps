@@ -144,7 +144,7 @@ if __name__ == '__main__':
 
     num_traj, jumps_per_traj = read_config()
 
-    # Loop over desired alpha values
+    # Loop over desired gamma values
     for gamma in range(3, 10):
 
         # Gamma will be the number of times the coherent step is repeated
