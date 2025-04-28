@@ -14,7 +14,7 @@ Inputs:
     * num_traj: number of trajectories to simulate
     * desired_jumps: number of jumps per trajectory
 Outputs:
-    - List of quantum walk trajectories for each node in the graph and different gamma values (Qwalks_gamma={gamma}_traj_{num_traj}.txt)
+    - Embeddings for different gamma values (Qwalks_gamma={gamma}_traj_{num_traj}.txt)
 '''
 
 # ---------------------------------------------------------------------------
